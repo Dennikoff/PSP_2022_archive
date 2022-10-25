@@ -36,7 +36,7 @@ html,body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #5e5373;
+    background-color: #444;
     z-index: 2;
 }
 
@@ -69,7 +69,7 @@ html,body{
 
 .header_link {
 
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-size: 20px;
     text-decoration: none;
@@ -88,13 +88,54 @@ html,body{
     z-index: 3;
 }
 
-
-
 .header_logo img {
     max-width: 100%;
 }
 
 
+.main_page_header{
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.main_page_statistics_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.main_page_statistics_container {
+    margin-top: 6vh;
+}
+
+.main_page_box{
+    margin-right: 3vh;
+    height: 13vh;
+    width: 13vh;
+    border-radius: 3vh;
+    border: 0.6vh solid gray;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_page_box:last-child {
+    margin-right: 0;
+}
+
+/*.main_page_box{*/
+/*    text-align: center;*/
+/*    !*align-items: center;*!*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*}*/
+
+.site_title{
+    /*margin-top: 5px;*/
+}
 
 @media (max-width: 768px) {
     .header_burger {
@@ -166,8 +207,8 @@ html,body{
     .header_menu {
         position: fixed;
         top: -100%;
-        left: 0;
-        width: 100%;
+        right: 0;
+        width: 100%; /*decrese width for big screens*/
         height: 100%;
         padding: 70px 0 0 0;
         background-color: #27829f;
