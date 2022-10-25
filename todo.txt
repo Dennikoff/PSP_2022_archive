@@ -1,0 +1,8 @@
+Bugs and future fixed are typed here:
+
+1) make width statistic content text by length
+2)
+3)
+4)
+5)
+6)

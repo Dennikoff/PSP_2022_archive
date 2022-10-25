@@ -95,7 +95,7 @@ html,body{
 
 .main_page_header{
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 5vh 0 0 0;
 }
 
 .main_page_statistics_container {
@@ -106,24 +106,54 @@ html,body{
 }
 
 .main_page_statistics_container {
-    margin-top: 6vh;
+    margin-top: 5vh;
 }
 
 .main_page_box{
-    margin-right: 3vh;
+    margin-right: 3vw;
     height: 13vh;
-    width: 13vh;
-    border-radius: 3vh;
-    border: 0.6vh solid gray;
+    width: 23vw;
+    border-radius: 3vw;
+    border: 5px solid gray;
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    max-width: 200px;
+    max-height: 150px;
 }
 
 .main_page_box:last-child {
     margin-right: 0;
+}
+
+.main_page_last_site_container{
+    width: 80vw;
+    height: 50vh;
+    background-color: #D9D9D9;
+    margin-top: 5vh;
+    border-radius: 3vh;
+    overflow: hidden;
+}
+
+.main_page_last_site_name_container{
+    background-color: #CBCBCB;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_page_last_site_index_info {
+    margin: 0 5vh 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_page_last_site_name_container {
+    padding-left: 5vh;
 }
 
 /*.main_page_box{*/
@@ -138,6 +168,19 @@ html,body{
 }
 
 @media (max-width: 768px) {
+    .main_page_box{
+        margin-right: 3vw;
+        height: 23vw;
+        width: 23vw;
+        border-radius: 3vw;
+        border: 1vw solid gray;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
     .header_burger {
         display: block;
         position: relative;
