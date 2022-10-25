@@ -143,6 +143,7 @@ html,body{
     .header_burger:before {
         top: 0;
     }
+
     .header_burger:after {
         bottom: 0;
     }
